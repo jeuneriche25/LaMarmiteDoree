@@ -137,7 +137,7 @@
     position:relative;
     background:
       linear-gradient(180deg, rgba(14,12,10,0.35) 0%, rgba(14,12,10,0.55) 45%, var(--noir) 96%),
-      url('/assets/image hero.jpeg') center 38% / cover no-repeat;
+      url('/src={`${import.meta.env.BASE_URL}assets/image hero.jpeg') center 38% / cover no-repeat;
   }
   .hero::after{
     content:"";position:absolute;inset:0;
@@ -510,7 +510,7 @@
   .visit{
     background:
       linear-gradient(180deg, var(--noir) 0%, rgba(14,12,10,0.55) 35%, rgba(14,12,10,0.55) 65%, var(--noir) 100%),
-      url('/assets/storefront.jpg') center / cover no-repeat;
+      url('/src={`${import.meta.env.BASE_URL}assets/storefront.jpg') center / cover no-repeat;
     padding:140px 0;
     text-align:center;
   }

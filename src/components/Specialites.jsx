@@ -18,7 +18,7 @@ export default function Specialites() {
         <div className="bento">
           <Reveal
             className="bento-card photo big"
-            style={{ backgroundImage: "url('/assets/theibou.webp')" }}
+            style={{ backgroundImage: "url('/src={`${import.meta.env.BASE_URL}assets/theibou.webp')" }}
           >
             <div className="content">
               <span className="tag">Plat signature</span>
@@ -33,7 +33,7 @@ export default function Specialites() {
 
           <Reveal
             className="bento-card photo"
-            style={{ backgroundImage: "url('/assets/poulet.jpg')" }}
+            style={{ backgroundImage: "url('/src={`${import.meta.env.BASE_URL}assets/poulet.jpg')" }}
           >
             <div className="content">
               <span className="tag">Diné</span>
@@ -43,7 +43,7 @@ export default function Specialites() {
           </Reveal>
 
           <Reveal 
-          className="bento-card" style ={{ backgroundImage: "url('/assets/dibiterie.jpg')" }}>
+          className="bento-card" style ={{ backgroundImage: "url('/src={`${import.meta.env.BASE_URL}assets/dibiterie.jpg')" }}>
             <div className="content">
               {/* <span className="tag">Dibiterie</span> */}
               <h3>Dibi Guinar</h3>
@@ -54,7 +54,7 @@ export default function Specialites() {
 
           <Reveal
             className="bento-card photo wide"
-            style={{ backgroundImage: "url('/assets/yassa.jpg')" }}
+            style={{ backgroundImage: "url('/src={`${import.meta.env.BASE_URL}assets/yassa.jpg')" }}
           >
             <div className="content">
               <span className="tag">Déjeuner</span>
@@ -75,7 +75,7 @@ export default function Specialites() {
 
           <Reveal
             className="bento-card photo"
-            style={{ backgroundImage: "url('/assets/mafe.jpg')" }}
+            style={{ backgroundImage: "url('/src={`${import.meta.env.BASE_URL}assets/mafe.jpg')" }}
           >
             <div className="content">
               <span className="tag">Diné</span>

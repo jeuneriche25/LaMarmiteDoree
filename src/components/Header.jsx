@@ -23,7 +23,7 @@ export default function Header() {
     <header id="site-header" className={scrolled ? 'scrolled' : ''}>
       <div className="wrap nav-row">
         <a href="#top" className="brand">
-          <img className="pot-icon" src="/assets/logo.png" alt="" width="45" height="40" />
+          <img className="pot-icon" src={`${import.meta.env.BASE_URL}assets/pot-icon.png`} alt="Logo" width="45" height="40" />
           La Marmite <span>Dorée</span>
         </a>
 

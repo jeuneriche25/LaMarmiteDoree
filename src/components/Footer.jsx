@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="foot-grid">
           <div className="foot-brand">
             <div className="brand">
-              <img className="pot-icon" src="/assets/pot-icon.png" alt="" width="38" height="30" />
+              <img className="pot-icon" src={`${import.meta.env.BASE_URL}logo.png`} alt="Logo" width="45" height="40" />
               La Marmite <span>Dorée</span>
             </div>
             <p>
