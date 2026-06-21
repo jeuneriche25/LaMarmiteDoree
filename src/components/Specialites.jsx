@@ -18,7 +18,7 @@ export default function Specialites() {
         <div className="bento">
           <Reveal
             className="bento-card photo big"
-            style={{ backgroundImage: "url('/src={`${import.meta.env.BASE_URL}assets/theibou.webp')" }}
+            style={{ backgroundImage: `url(${import.meta.env.BASE_URL}assets/theibou.webp)` }}
           >
             <div className="content">
               <span className="tag">Plat signature</span>
@@ -33,28 +33,28 @@ export default function Specialites() {
 
           <Reveal
             className="bento-card photo"
-            style={{ backgroundImage: "url('/src={`${import.meta.env.BASE_URL}assets/poulet.jpg')" }}
+            style={{ backgroundImage: `url(${import.meta.env.BASE_URL}assets/poulet.jpg)` }}
           >
             <div className="content">
-              <span className="tag">Diné</span>
+              <span className="tag">Dîner</span>
               <h3>Poulet Rôti</h3>
               <div className="price">2 500 Fcfa</div>
             </div>
           </Reveal>
 
           <Reveal 
-          className="bento-card" style ={{ backgroundImage: "url('/src={`${import.meta.env.BASE_URL}assets/dibiterie.jpg')" }}>
+            className="bento-card photo" 
+            style={{ backgroundImage: `url(${import.meta.env.BASE_URL}assets/dibiterie.jpg)` }}
+          >
             <div className="content">
-              {/* <span className="tag">Dibiterie</span> */}
               <h3>Dibi Guinar</h3>
-              {/* <p>Pintade grillée façon dibiterie, servie entière ou en moitié.</p> */}
               <div className="price">3 500 / 7 000 Fcfa</div>
             </div>
           </Reveal>
 
           <Reveal
             className="bento-card photo wide"
-            style={{ backgroundImage: "url('/src={`${import.meta.env.BASE_URL}assets/yassa.jpg')" }}
+            style={{ backgroundImage: `url(${import.meta.env.BASE_URL}assets/yassa.jpg)` }}
           >
             <div className="content">
               <span className="tag">Déjeuner</span>
@@ -75,10 +75,10 @@ export default function Specialites() {
 
           <Reveal
             className="bento-card photo"
-            style={{ backgroundImage: "url('/src={`${import.meta.env.BASE_URL}assets/mafe.jpg')" }}
+            style={{ backgroundImage: `url(${import.meta.env.BASE_URL}assets/mafe.jpg)` }}
           >
             <div className="content">
-              <span className="tag">Diné</span>
+              <span className="tag">Dîner</span>
               <h3>Volailles Braisées</h3>
               <div className="price">sur riz créole</div>
             </div>
