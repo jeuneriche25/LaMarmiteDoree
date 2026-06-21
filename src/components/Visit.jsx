@@ -2,7 +2,13 @@ import Reveal from './Reveal'
 
 export default function Visit() {
   return (
-    <section className="visit" id="contact">
+    <section 
+      className="visit" 
+      id="contact"
+      style={{
+        backgroundImage: `linear-gradient(180deg, var(--noir) 0%, rgba(14, 12, 10, 0.55) 35%, rgba(14, 12, 10, 0.55) 65%, var(--noir) 100%), url(${import.meta.env.BASE_URL}assets/storefront.jpg)`
+      }}
+    >
       <Reveal className="wrap" as="div">
         <div className="eyebrow center">Venez nous voir</div>
         <h2 style={{ marginTop: '16px' }}>

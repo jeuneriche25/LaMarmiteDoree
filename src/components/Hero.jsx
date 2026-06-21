@@ -6,7 +6,7 @@ export default function Hero() {
       className="hero" 
       id="top"
       style={{ 
-        backgroundImage: `linear-gradient(180deg, rgba(14,12,10,0.35) 0%, rgba(14,12,10,0.55) 45%, var(--noir) 96%), url(${import.meta.env.BASE_URL}assets/image hero.jpeg)` 
+        backgroundImage: `linear-gradient(180deg, rgba(14,12,10,0.35) 0%, rgba(14,12,10,0.55) 45%, var(--noir) 96%), url(${import.meta.env.BASE_URL}assets/hero-bg.jpeg)` 
       }}
     >
       <Reveal className="wrap hero-inner in" as="div">

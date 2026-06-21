@@ -2,25 +2,25 @@ import Reveal from './Reveal'
 
 const DISHES = [
   {
-    src: '/src={`${import.meta.env.BASE_URL}assets/theibou.webp',
+    src: `${import.meta.env.BASE_URL}assets/theibou.webp`,
     alt: 'Thiéboudiène',
     title: 'Thiéboudiène',
     desc: 'Le plat national sénégalais à base de riz, poisson et légumes frais.',
   },
   {
-    src: '/src={`${import.meta.env.BASE_URL}assets/yassa.jpg',
+    src: `${import.meta.env.BASE_URL}assets/yassa.jpg`,
     alt: 'Yassa poulet',
     title: 'Yassa Poulet',
     desc: 'Poulet mariné au citron, oignons et moutarde accompagné de riz.',
   },
   {
-    src: '/src={`${import.meta.env.BASE_URL}assets/mafe.jpg',
+    src: `${import.meta.env.BASE_URL}assets/mafe.jpg`,
     alt: 'Mafé maison',
     title: 'Mafé Maison',
     desc: "Savoureux mélange de viande tendre et sauce à la pâte d'arachide.",
   },
   {
-    src: '/src={`${import.meta.env.BASE_URL}assets/soupou kandia.jpg',
+    src: `${import.meta.env.BASE_URL}assets/soupou kandia.jpg`,
     alt: 'Soupou Kandia',
     title: 'Soupou Kandia',
     desc: 'Poisson frais mijoté dans une sauce traditionnelle aux légumes.',
