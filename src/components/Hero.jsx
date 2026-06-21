@@ -2,7 +2,13 @@ import Reveal from './Reveal'
 
 export default function Hero() {
   return (
-    <section className="hero" id="top">
+    <section 
+      className="hero" 
+      id="top"
+      style={{ 
+        backgroundImage: `linear-gradient(180deg, rgba(14,12,10,0.35) 0%, rgba(14,12,10,0.55) 45%, var(--noir) 96%), url(${import.meta.env.BASE_URL}assets/image hero.jpeg)` 
+      }}
+    >
       <Reveal className="wrap hero-inner in" as="div">
         <div>
           <div className="eyebrow">Restaurant · Traiteur · Dibiterie · Pizzeria</div>
